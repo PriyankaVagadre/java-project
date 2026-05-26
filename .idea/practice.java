@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 class Scratch {
     public static void main(String[] args) {
-        int numDiv =18;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number");
+        int numDiv = scanner.nextInt();
         if(numDiv % 5 == 0 && numDiv % 3 == 0){
             System.out.println("Fuzz Buzz");
         }
@@ -10,7 +14,8 @@ class Scratch {
         else if(numDiv % 3 == 0){
             System.out.println("Buzz");
         }
-        else
+        else{
             System.out.println(numDiv);
+        }
     }
 }
