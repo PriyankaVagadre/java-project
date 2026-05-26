@@ -1,7 +1,17 @@
 class Scratch {
     public static void main(String[] args) {
-       int salary = 20000;
-        String className = (salary>=18000) ? "First" : "Economy";
-        System.out.println("Customer in " + className + " Class");
+        String role ="admin";
+
+        switch (role){
+            case "admin":
+                System.out.println("your are admin");
+                break;
+            case "moderator":
+                System.out.println("your are admin");
+                break;
+            default:
+                System.out.println("you are a guest");
+        }
+
     }
 }
