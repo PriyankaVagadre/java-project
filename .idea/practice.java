@@ -10,8 +10,7 @@ class Scratch {
         else if(numDiv % 3 == 0){
             System.out.println("Buzz");
         }
-        else{
+        else
             System.out.println(numDiv);
-        }
     }
 }
