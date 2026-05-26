@@ -1,17 +1,17 @@
 class Scratch {
     public static void main(String[] args) {
-        String role ="admin";
-
-        switch (role){
-            case "admin":
-                System.out.println("your are admin");
-                break;
-            case "moderator":
-                System.out.println("your are admin");
-                break;
-            default:
-                System.out.println("you are a guest");
+        int numDiv =18;
+        if(numDiv % 5 == 0 && numDiv % 3 == 0){
+            System.out.println("Fuzz Buzz");
         }
-
+        else if(numDiv % 5 == 0){
+            System.out.println("Fuzz");
+        }
+        else if(numDiv % 3 == 0){
+            System.out.println("Buzz");
+        }
+        else{
+            System.out.println(numDiv);
+        }
     }
 }
