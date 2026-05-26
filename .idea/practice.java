@@ -1,15 +1,12 @@
 class Scratch {
     public static void main(String[] args) {
-        int temp =26;
-        scanner temp = new Scanner();
-        system.print
-        if(temp>30){
-            System.out.println("Its hot today");
-        }
-        else if(temp>25 && temp<30){
-            System.out.println("Its a normal dat today");
-        }
-        else
-            System.out.println("Its a cold day today");
+       int salary = 20000;
+        String className ="Economy";
+                if(salary>=18000){
+                    className="First";
+                }
+        System.out.println("Customer in" + className + "Class");
+
+
     }
 }
