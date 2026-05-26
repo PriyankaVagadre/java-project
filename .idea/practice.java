@@ -1,6 +1,8 @@
 class Scratch {
     public static void main(String[] args) {
         int temp =26;
+        scanner temp = new Scanner();
+        system.print
         if(temp>30){
             System.out.println("Its hot today");
         }
